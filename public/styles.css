@@ -1,0 +1,518 @@
+@font-face {
+  font-family: "maakudafont";
+  src: url("./fonts/MAAKUDA.ttf");
+}
+@font-face {
+  font-family: "mono";
+  src: url("./fonts/CutiveMono-Regular.ttf");
+}
+
+body {
+  background-color: #cacaca;
+  font-family: monospace;
+  margin: 0% 6% 0 0%;
+}
+
+h1 {
+  font-size: 1rem;
+  text-shadow: 2px 2px #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: -5%;
+  font-family: "maakudafont";
+  animation: 0.7s ease-out slideInFromUp;
+}
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "maakudafont";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  display: flex;
+}
+.icon {
+  padding: 1% 0 0 3%;
+}
+
+.form {
+  width: 100%;
+  text-align: left;
+  display: block;
+  padding: 3% 3%;
+  background-color: #e6b31e;
+  font-size: 1.24rem;
+  text-align: center;
+  font-family: "mono";
+  font-weight: 800;
+  border-top: 19px rgb(255, 255, 255) solid;
+  border-bottom: 5px rgb(0, 0, 0) solid;
+}
+
+/*******************************Sidenav****************************/
+
+.sidenav {
+  height: 100%;
+  width: 6%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #e6b31e;
+  overflow-x: hidden;
+  border-left: 12px rgb(255, 255, 255) solid;
+  font-weight: 600;
+}
+
+.sidenav a {
+  display: block;
+  writing-mode: vertical-rl;
+  font-family: "maakudafont";
+  color: black;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+/*******************************LOGOS****************************/
+
+.logos-index {
+  text-align: center;
+}
+.logos-index a :hover {
+  color: rgb(150, 1, 1);
+}
+
+@keyframes slideInFromUp {
+  0% {
+    transform: translateY(-45%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+  }
+}
+
+.logos {
+  padding-top: 2%;
+  text-align: right;
+}
+.logos a :hover {
+  color: rgb(150, 1, 1);
+}
+
+.copyright {
+  text-align: center;
+  font-family: "maakudafont";
+  padding-top: 1%;
+}
+
+.tamir {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.tamir:hover {
+  cursor: pointer;
+  color: rgb(150, 1, 1);
+}
+.label-name {
+  font-family: "maakudafont";
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.logo {
+  display: block;
+}
+
+/*******************************ABOUT-PAGE****************************/
+
+.about-text {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 2%;
+  background-color: #e6b31e;
+  border-top: 0.6em white solid;
+  border-bottom: 0.2em rgb(255, 255, 255) solid;
+  text-align: left;
+}
+
+.about-imgs {
+  border-top: 9px rgb(255, 255, 255) solid;
+  border-bottom: 9px rgb(255, 255, 255) solid;
+  animation: 0.3s ease-in opacity;
+  width: 600px;
+  height: 300px;
+}
+.about-imgs:before {
+  content: "";
+  display: block;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+form > span {
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-right: 2%;
+}
+
+form a:hover {
+  color: rgb(150, 1, 1);
+}
+
+/*******************************RELEASES****************************/
+
+.releases {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.rel-item {
+  margin: 3% 4%;
+}
+
+.rel-item p {
+  font-size: 1.6rem;
+  padding-left: 20%;
+}
+.rel-img {
+  border: 5px rgb(0, 0, 0) double;
+  animation: 0.3s ease-in opacity;
+}
+.rel-img :before {
+  border-left: 31px solid rgb(0, 0, 0);
+  content: "";
+}
+.rel-img:hover {
+  opacity: 0.6;
+}
+
+/************************IPHONE***********************************/
+
+@media only screen and (max-device-width: 550px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    margin: 1% 0;
+    font-size: 1.6rem;
+  }
+
+  main {
+    width: 88%;
+  }
+
+  .copyright {
+    font-size: 0.63em;
+    padding-top: 7%;
+  }
+  /************************Sidenav***********************************/
+
+  .sidenav {
+    width: 13.4%;
+  }
+
+  .sidenav a {
+    padding: 350% 28% 0 26%;
+    font-size: 1.3rem;
+  }
+
+  /************************LOGOS***********************************/
+
+  .logos-index {
+    padding: 60% 0 0 0;
+  }
+  .logo {
+    margin: 20% 10% AUTO AUTO;
+    width: 80%;
+  }
+  .logos {
+    padding: 7% 2% 0 0;
+    width: 800%;
+    font-size: 1.1em;
+  }
+  .icon {
+    width: 25%;
+    padding-left: 39%;
+  }
+
+  /************************Releases***********************************/
+
+  .releases {
+    display: block;
+  }
+
+  .rel-img {
+    width: 160px;
+    height: 160px;
+  }
+  .rel-item p {
+    font-size: 1rem;
+    padding-right: 20%;
+  }
+
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+
+  .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  /************************ABOUT***********************************/
+
+  .about-imgs {
+    margin: 10%;
+    max-width: 85%;
+  }
+  .about-text {
+    font-size: 1.1em;
+    padding: 8%;
+  }
+}
+/************************TABLET***********************************/
+@media only screen and (min-width: 550px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  main {
+    width: 94%;
+  }
+
+  .form {
+    padding: 2% 8%;
+    font-size: 1.1rem;
+  }
+  .label-name {
+    font-family: 1rem;
+  }
+  /************************SIDENAV***********************************/
+  .sidenav {
+    width: 9%;
+    border-left: 20px rgb(255, 255, 255) solid;
+  }
+
+  .sidenav a {
+    padding: 346% 13% 0 24%;
+    font-size: 1.2rem;
+  }
+
+  /************************LOGOS***********************************/
+
+  .icon {
+    width: 15%;
+    padding-top: 1%;
+  }
+  .logos-index {
+    padding-top: 23%;
+  }
+  .logo {
+    margin: 3% AUTO;
+    width: 60%;
+  }
+
+  .logos {
+    padding-top: 6%;
+    width: 305%;
+    font-size: 0.75em;
+  }
+
+  /************************RELEASES***********************************/
+
+  .releases {
+    margin-top: 5%;
+  }
+  .rel-img {
+    width: 200px;
+    height: 200px;
+  }
+  .rel-item p {
+    font-size: 1.2rem;
+    padding-right: 20%;
+  }
+  /************************About-Page***********************************/
+
+  .about-text {
+    padding: 4%;
+  }
+  .about-imgs {
+    max-width: 80%;
+  }
+}
+
+/************************LAPTOP***********************************/
+
+@media only screen and (min-width: 901px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  /************************SIDENAV***********************************/
+
+  .sidenav {
+    padding-top: 3%;
+    width: 7%;
+    border-left: 20px rgb(255, 255, 255) solid;
+  }
+
+  .sidenav a {
+    font-size: 1.5rem;
+    padding: 240% 0 0 18%;
+  }
+
+  /************************LOGOS***********************************/
+
+  h2 {
+    margin: 1%;
+  }
+  .icon {
+    width: 11%;
+  }
+
+  .logo {
+    margin: 4% AUTO 2%;
+    width: 50%;
+  }
+
+  .logos {
+    width: 200%;
+    padding-top: 3%;
+  }
+  .logos-index {
+    padding-top: 18%;
+  }
+
+  /************************RELEASES***********************************/
+
+  .rel-img {
+    margin-top: 3%;
+    width: 256px;
+    height: 256px;
+  }
+  .rel-item p {
+    font-size: 1.2rem;
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1127px) {
+  h1 {
+    margin-top: 7% 0 0 2%;
+    font-size: 2rem;
+    font-family: "maakudafont";
+    margin-top: -2%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  /************************SIDENAV***********************************/
+  .sidenav {
+    width: 5%;
+  }
+  .sidenav a {
+    font-size: 1.5rem;
+    padding: 290% 0 0 22%;
+  }
+  /************************LOGOS***********************************/
+  .icon {
+    width: 11%;
+  }
+
+  .logos-index {
+    margin-top: 12%;
+  }
+  .logo {
+    margin: 4% AUTO;
+    width: 35%;
+  }
+  .logos {
+    width: 47%;
+  }
+  /************************RELEASES***********************************/
+
+  .rel-img {
+    width: 256px;
+    height: 256px;
+  }
+  .rel-item p {
+    font-size: 1.2rem;
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  h1 {
+    font-family: "maakudafont";
+  }
+  h2 {
+    margin: 0;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .sidenav {
+    width: 5%;
+    border-left: 20px rgb(255, 255, 255) solid;
+  }
+
+  .label-name {
+    font-size: 1.8rem;
+    padding-top: 1%;
+  }
+
+  .bold {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  h1 {
+    font-family: "maakudafont";
+  }
+  .sidenav a {
+    font-size: 1.4rem;
+    padding: 220% 0 0 30%;
+  }
+
+  .logo {
+    width: 40%;
+    margin: 0 auto 0;
+  }
+
+  .logos-index {
+    margin-top: 15%;
+  }
+  .copyright {
+    padding: 0;
+  }
+}

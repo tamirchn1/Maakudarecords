@@ -1,9 +1,9 @@
 import React from "react";
 
-function Footer() {
+function FooterIndex() {
   return (
     <div>
-      <div className="logos">
+      <div className="logos-index">
         <a
           href="https://www.instagram.com/maakuda_records/?hl=en"
           target="_blank"
@@ -39,10 +39,10 @@ function Footer() {
         <br />
         Copyright &copy;
         <script>document.write(new Date().getFullYear());</script>
-        MAAKUDA RECORDS <br /> All Rights Reserved
+        MAAKUDA RECORDS All Rights Reserved
       </footer>
     </div>
   );
 }
 
-export default Footer;
+export default FooterIndex;

@@ -7,9 +7,8 @@ function About() {
   return (
     <div>
       <Sidenav />
+      <Header />
       <main>
-        <Header />
-
         <h2 className="about-head">About</h2>
 
         <p className="about-text">
@@ -35,10 +34,7 @@ function About() {
 
         <form>
           <div>
-            <a
-              className="form text-center"
-              href="mailto:Maakudarecords@gmail.com"
-            >
+            <a className="form" href="mailto:Maakudarecords@gmail.com">
               Contact <span className="bold">||</span>{" "}
               <span className="label-name">MAAKUDA RECORDS</span>
             </a>

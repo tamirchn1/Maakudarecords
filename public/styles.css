@@ -553,15 +553,15 @@ form a:hover {
     height: 456px;
   }
   .logo {
-    width: 40%;
+    width: 30%;
     margin: 0 auto 0;
   }
   .logos {
-    font-size: 2rem;
+    font-size: 1.7em;
   }
   .logos-index {
     margin-top: 8%;
-    font-size: 2rem;
+    font-size: 1.7em;
   }
   .copyright {
     font-size: 1.5rem;
@@ -569,6 +569,7 @@ form a:hover {
   }
 
   .about-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 2%;
   }
 }

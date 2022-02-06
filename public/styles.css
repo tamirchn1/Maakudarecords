@@ -335,7 +335,7 @@ form a:hover {
     bottom: 1px;
   }
   .sidenav a {
-    padding: 346% 13% 0 24%;
+    margin: 346% 13% 0 24%;
     font-size: 1.2rem;
   }
 

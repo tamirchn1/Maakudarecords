@@ -244,7 +244,7 @@ form a:hover {
     margin-top: 58%;
   }
   .logo {
-    margin: 20% 10% AUTO AUTO;
+    margin: 10% 10% AUTO AUTO;
     width: 80%;
   }
 
@@ -538,7 +538,7 @@ form a:hover {
     font-size: 2.3rem;
   }
   .icon {
-    width: 14%;
+    width: 5%;
   }
   .sidenav a {
     font-size: 1.6rem;
@@ -567,9 +567,11 @@ form a:hover {
     font-size: 1rem;
     padding-top: 1%;
   }
-
+  .form {
+    font-size: 2rem;
+  }
   .about-text {
-    font-size: 1.5rem;
-    padding: 2%;
+    font-size: 1.3rem;
+    padding: 1%;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
+    <div className="footer">
       <div className="logos">
         <a
           href="https://www.instagram.com/maakuda_records/?hl=en"

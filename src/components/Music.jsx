@@ -18,7 +18,7 @@ function Music() {
       <h1>MUSIC</h1>
       <div className="releases">
         <div className="rel-item">
-          <a href="/steppenkind" target="_blank">
+          <a href="/steppenkind">
             <img
               src="images/steppenkind1.jpg"
               className="rel-img"

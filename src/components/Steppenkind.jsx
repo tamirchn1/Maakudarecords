@@ -6,8 +6,10 @@ function Steppenkind() {
   return (
     <div>
       <Header />
-      <h2>STEPPENKIND</h2>
-      <p>Steppenkind are our friends, we met them in a party</p>
+      <div className="about-text">
+        <h2>STEPPENKIND</h2>
+        <p>Steppenkind are our friends, we met them in a party</p>
+      </div>
 
       <Footer />
     </div>

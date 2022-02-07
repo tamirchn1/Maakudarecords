@@ -20,7 +20,6 @@ h1 {
   text-align: center;
   /* margin: -5%; */
   font-family: "maakudafont";
-
   animation: 0.7s ease-out slideInFromUp;
 }
 
@@ -39,7 +38,6 @@ a {
   width: 92%;
 }
 .header {
-  display: flex;
 }
 .icon {
   padding: 1% 0 0 3%;
@@ -63,7 +61,7 @@ a {
 
 .sidenav {
   height: 100%;
-  width: 9%;
+  width: 7%;
   position: fixed;
   top: 0;
   right: 0;
@@ -209,7 +207,7 @@ form a:hover {
 }
 .logos {
   text-align: center;
-  margin-top: 3%;
+  margin-top: 8%;
 }
 
 /************************IPHONE***********************************/
@@ -310,7 +308,7 @@ form a:hover {
 
   .form {
     padding: 2% 8%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   .label-name {
     font-family: 1rem;
@@ -331,7 +329,7 @@ form a:hover {
     bottom: 1px;
   }
   .sidenav a {
-    margin: 307% 13% 0 24%;
+    margin: 307% 13% 0 30%;
     font-size: 1.2rem;
   }
 
@@ -460,7 +458,7 @@ form a:hover {
   }
   /************************LOGOS***********************************/
   .icon {
-    width: 11%;
+    width: 7%;
   }
 
   .logos-index {

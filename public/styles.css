@@ -41,8 +41,7 @@ a {
 .app {
   width: 92%;
 }
-.header {
-}
+
 .icon {
   padding: 1% 0 0 3%;
   width: 20%;
@@ -61,6 +60,11 @@ a {
   border-bottom: 5px rgb(0, 0, 0) solid;
 }
 
+Iframe {
+  margin: 4% auto;
+  width: 265px;
+  height: 500px;
+}
 /*******************************Sidenav****************************/
 
 .sidenav {
@@ -211,8 +215,7 @@ form a:hover {
 }
 .logos {
   text-align: center;
-    margin-top: 4%;
-}
+  margin-top: 4%;
 }
 
 /************************IPHONE***********************************/

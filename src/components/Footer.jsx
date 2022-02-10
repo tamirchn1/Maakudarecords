@@ -1,4 +1,5 @@
 import React from "react";
+var d = new Date().getFullYear();
 
 function Footer() {
   return (
@@ -39,7 +40,7 @@ function Footer() {
         <br />
         Copyright &copy;
         <script>document.write(new Date().getFullYear());</script>
-        MAAKUDA RECORDS <br /> All Rights Reserved
+        {d} MAAKUDA RECORDS <br /> All Rights Reserved
       </footer>
     </div>
   );

@@ -9,7 +9,7 @@ function About() {
       <Sidenav />
       <Header />
       <main>
-        <h2 className="about-head">About</h2>
+        <h1 className="about-head">About</h1>
 
         <p className="about-text">
           <span className="label-name"> 'MAAKUDA RECORDS'</span> was born on the

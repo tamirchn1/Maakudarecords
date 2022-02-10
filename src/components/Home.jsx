@@ -3,7 +3,7 @@ import FooterIndex from "./FooterIndex";
 
 function Home() {
   return (
-    <div>
+    <div className="app">
       <main>
         <a href="/">
           <img src="images/MA 1.png" alt="Maakuda logo" className="logo" />

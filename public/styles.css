@@ -25,13 +25,14 @@ h1 {
   text-align: center;
   display: contents;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
-.app {
+/* .app {
   width: 92%;
-}
+} */
 
 .icon {
   padding: 1% 0 0 3%;
@@ -238,7 +239,6 @@ form a:hover {
 @media screen and (min-width: 550px) {
   h1 {
     font-size: 1.8rem;
-    margin-top: 4%;
   }
 
   /************************LOGOS***********************************/
@@ -286,12 +286,11 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .icon {
-    width: 9%;
+    width: 13%;
   }
 
   .logo {
-    margin: 1% AUTO 2%;
-    width: 50%;
+    width: 59%;
   }
 
   .logos-index {
@@ -310,7 +309,7 @@ form a:hover {
   }
 
   .about-text {
-    width: 100%;
+    width: 105%;
   }
 }
 
@@ -319,16 +318,18 @@ form a:hover {
   .sidenav {
     width: 5%;
   }
+
   .sidenav a {
     margin: 290% 0 0 22%;
   }
+
   /************************LOGOS***********************************/
   .icon {
     width: 7%;
   }
 
   .logo {
-    margin: 4% AUTO;
+    margin: 3% AUTO;
     width: 35%;
   }
 }

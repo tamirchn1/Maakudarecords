@@ -6,7 +6,7 @@ function Home() {
     <div className="app">
       <main>
         <a href="/">
-          <img src="images/MA 1.png" alt="Maakuda logo" className="logo" />
+          <img src="images/Gif.gif" alt="Maakuda logo" className="logo" />
         </a>
         <h1>MAAKUDA RECORDS</h1>
         <FooterIndex />

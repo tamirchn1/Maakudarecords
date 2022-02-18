@@ -3,7 +3,7 @@ function Header() {
     <header className="header">
       <a href="/">
         <img
-          src="images/MA 1.png"
+          src="images/Gif.gif"
           alt=""
           className="icon"
           onMouseOver="this.src='images/MA 1Y.png'"

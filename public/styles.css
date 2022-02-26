@@ -30,6 +30,9 @@ a {
   text-decoration: none;
   color: black;
 }
+.lottie {
+  margin: 0 auto;
+}
 /* .app {
   width: 92%;
 } */
@@ -147,7 +150,7 @@ Iframe {
   border-top: 0.6em white solid;
   border-bottom: 0.2em rgb(255, 255, 255) solid;
   box-sizing: border-box;
-  text-align: justify;
+  text-align: ;
 }
 
 form a:hover {
@@ -180,6 +183,10 @@ form a:hover {
   opacity: 0.6;
 }
 
+.stpn-content {
+  text-align: justify;
+  font-size: 0.8rem;
+}
 /************************IPHONE***********************************/
 
 @media screen and (max-device-width: 550px) {
@@ -264,8 +271,7 @@ form a:hover {
   }
   /************************About-Page***********************************/
   .about-text {
-    padding: 2% 5%;
-    width: 97%;
+    padding: 1% 3%;
   }
 }
 
@@ -309,7 +315,11 @@ form a:hover {
   }
 
   .about-text {
-    width: 105%;
+    width: 50%;
+    margin-left: 10%;
+  }
+  .stpn-content {
+    display: flex;
   }
 }
 
@@ -324,6 +334,30 @@ form a:hover {
   }
 
   /************************LOGOS***********************************/
+  .icon {
+    width: 7%;
+  }
+
+  .logo {
+    margin: 3% AUTO;
+    width: 35%;
+  }
+  .lottie {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 2071px) {
+  /************************SIDENAV***********************************/
+  .sidenav {
+    width: 4%;
+  }
+
+  .sidenav a {
+    margin: 290% 0 0 28%;
+  }
+
+  /************************LOGOS***********************************/
+
   .icon {
     width: 7%;
   }

@@ -6,7 +6,9 @@ import Iframe from "react-iframe";
 function Steppenkind() {
   return (
     <div>
-      <Header />
+      <div className="icon">
+        <Header />
+      </div>
       <div className="stpn-content">
         <div className="about-text">
           <h2>STEPPENKIND</h2>

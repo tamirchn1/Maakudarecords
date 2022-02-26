@@ -1,20 +1,14 @@
 import React from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
 function Music() {
   return (
     <div>
-      <header className="header">
-        <a id="icon" href="/">
-          <img
-            src="images/MA 1.png"
-            alt=""
-            className="icon"
-            onMouseOver="this.src='images/MA 1Y.png'"
-            onMouseLeave="this.src='images/MA 1.png'"
-          />
-        </a>
-      </header>
+      <div className="icon">
+        <Header />
+      </div>
+
       <h1>MUSIC</h1>
       <div className="releases">
         <div className="rel-item">

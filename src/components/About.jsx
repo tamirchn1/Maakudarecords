@@ -7,7 +7,9 @@ function About() {
   return (
     <div>
       <Sidenav />
-      <Header />
+      <div className="icon">
+        <Header />
+      </div>
       <main>
         <h1 className="about-head">About</h1>
 

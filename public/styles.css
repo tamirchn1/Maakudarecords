@@ -191,7 +191,9 @@ form a:hover {
   h1 {
     font-size: 1.4rem;
   }
-
+  .home-h1 {
+    font-size: 1.1rem;
+  }
   .copyright {
     font-size: 0.7rem;
     padding-top: 1%;
@@ -250,11 +252,7 @@ form a:hover {
   h1 {
     font-size: 1.8rem;
   }
-  .home-h1 {
-    font-size: 1.1rem;
-  }
-  .sidenav {
-  }
+
   /************************LOGOS***********************************/
 
   .lottie {

@@ -10,7 +10,7 @@ function Home() {
           <Lottie />
         </div>
 
-        <h1>MAAKUDA RECORDS</h1>
+        <h1 className="home-h1">MAAKUDA RECORDS</h1>
         <FooterIndex />
       </main>
     </div>

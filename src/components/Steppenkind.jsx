@@ -1,18 +1,26 @@
 import React from "react";
 import Header from "./Header";
-import FooterIndex from "./FooterIndex";
+import Footer from "./Footer";
 import Iframe from "react-iframe";
+import Sidenav from "./Sidenav";
 
 function Steppenkind() {
   return (
     <div>
+      <Sidenav />
       <div className="icon">
         <Header />
       </div>
-      <div className="stpn-content">
-        <div className="about-text">
-          <h2>STEPPENKIND</h2>
-          <p className="">
+      <main>
+        <h1 className="about-head">STEPPENKIND</h1>
+        <div className="stpn-content">
+          <img
+            className="band-photo"
+            src="images/steppenkind2.jpg"
+            alt="band photo"
+          />
+
+          <p className="about-text">
             Steppenkind is building a bridge between nightclubbing and live
             concerts. <br /> The Berlin Trio is merging a variety of genres with
             synthesizers, electronic and acoustic drums, mesmerizing electric
@@ -38,27 +46,33 @@ function Steppenkind() {
             (Jerusalem) and many more. <br />
             All their Recordings are self-produced and recorded in their own
             studio in Berlin.
-            <br /> <br />
-            They’re constantly trying to perfect their unique sound and being
-            autonomous is giving them the space to do so. 2022 is the year of
-            the second album „Undefined Lovers“ which is already announcing
-            itself here and there on youtube. <br />
+            <br /> <br /> They’re constantly trying to perfect their unique
+            sound and being autonomous is giving them the space to do so. 2022
+            is the year of the second album „Undefined Lovers“ which is already
+            announcing itself here and there on youtube. <br />
             It will finally showcase all the songs that have been making the
             live shows unforgettable.
           </p>
+          <Iframe
+            style="border: 0; width: 365px; height: 700px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=636602623/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
+            seamless
+          >
+            <a href="https://steppenkind.bandcamp.com/album/walk-along-your-river">
+              Walk Along Your River by Steppenkind
+            </a>
+          </Iframe>
         </div>
-
-        <Iframe
-          style="border: 0; width: 365px; height: 700px;"
-          src="https://bandcamp.com/EmbeddedPlayer/album=636602623/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
-          seamless
-        >
-          <a href="https://steppenkind.bandcamp.com/album/walk-along-your-river">
-            Walk Along Your River by Steppenkind
-          </a>
-        </Iframe>
-      </div>
-      <FooterIndex />
+        <form>
+          <div>
+            <a className="form" href="mailto:Maakudarecords@gmail.com">
+              Contact <span className="bold">||</span>{" "}
+              <span className="label-name">MAAKUDA RECORDS</span>
+            </a>
+          </div>
+        </form>
+        <Footer />
+      </main>
     </div>
   );
 }

@@ -9,15 +9,13 @@ import Steppenkind from "./components/Steppenkind";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Sidenav />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/Music" component={Music} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Steppenkind" component={Steppenkind} />
-        </Switch>
-      </div>
+      <Sidenav />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Music" component={Music} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Steppenkind" component={Steppenkind} />
+      </Switch>
     </Router>
   );
 }

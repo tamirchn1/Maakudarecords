@@ -326,7 +326,7 @@ form a:hover {
     width: 60%;
   }
   .logos {
-    margin-top: 1.3%;
+    margin-top: 4%;
   }
 
   .logos-index {
@@ -435,8 +435,8 @@ form a:hover {
 
   .rel-img {
     margin-top: 3%;
-    width: 184px;
-    height: 184px;
+    width: 200px;
+    height: 200px;
   }
 
   .stpn-text {
@@ -559,11 +559,21 @@ form a:hover {
   }
 }
 @media screen and (min-width: 1600px) {
+  h1 {
+    margin-bottom: 1%;
+  }
+
   /************************SIDENAV***********************************/
+
   .sidenav {
     width: 4%;
   }
 
+  .rel-img {
+    margin-top: 3%;
+    width: 300px;
+    height: 300px;
+  }
   .sidenav a {
     margin: 290% 0 0 28%;
   }
@@ -580,8 +590,12 @@ form a:hover {
     margin: 3% AUTO;
     width: 35%;
   }
+  .logos {
+    font-size: 1rem;
+  }
+
   .band-photo {
-    width: 25%;
+    width: 50%;
     margin: 0 5%;
   }
   .copyright {

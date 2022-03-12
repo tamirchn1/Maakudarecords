@@ -41,7 +41,7 @@ function FooterIndex() {
         <br />
         Copyright &copy;
         <script>document.write(new Date().getFullYear());</script>
-        {d} MAAKUDA RECORDS <br /> All Rights Reserved
+        {d} MAAKUDA RECORDS All Rights Reserved
       </footer>
     </div>
   );

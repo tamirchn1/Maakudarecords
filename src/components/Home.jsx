@@ -4,7 +4,7 @@ import Lottie from "./Lottie";
 
 function Home() {
   return (
-    <div className="app">
+    <div className="app-index">
       <main>
         <div className="lottie">
           <Lottie />

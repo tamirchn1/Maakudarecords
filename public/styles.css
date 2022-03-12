@@ -87,7 +87,24 @@ Iframe {
 .logos-index a :hover {
   color: rgb(150, 1, 1);
 }
-
+.fa-facebook-f:before {
+  color: #3b5da1;
+}
+.fa-instagram:before {
+  color: #bc2a8d;
+}
+.fa-bandcamp:before {
+  color: #629aa9;
+}
+.fa-soundcloud:before {
+  color: #f70;
+}
+.fa-youtube:before {
+  color: #ff0000;
+}
+.fa-record-vinyl:before {
+  color: #333;
+}
 @keyframes slideInFromUp {
   0% {
     transform: translateY(-45%);
@@ -110,6 +127,8 @@ Iframe {
 }
 
 .copyright {
+  font-size: 0.6rem;
+  padding-top: 1%;
   text-align: center;
   font-family: "maakudafont";
 }
@@ -140,14 +159,14 @@ Iframe {
   align-items: center;
   justify-content: space-around;
 }
-.about-text {
+.about-text,
+.stpn-text {
   font-size: 1.4em;
   background-color: #e6b31e;
   border-top: 0.6em white solid;
   border-bottom: 0.2em rgb(255, 255, 255) solid;
   box-sizing: border-box;
   text-align: justify;
-  overflow: scroll;
 }
 
 .form {
@@ -198,12 +217,14 @@ form a:hover {
   h1 {
     font-size: 1.4rem;
   }
+
   .home-h1 {
     font-size: 1.1rem;
+    margin-top: 12%;
   }
   .copyright {
     font-size: 0.6rem;
-    padding-top: 1%;
+    padding-top: 6%;
   }
   /************************Sidenav***********************************/
 
@@ -220,17 +241,22 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .lottie {
-    margin-top: 23%;
+    margin-top: 38%;
   }
-
+  .app-index {
+    width: 92%;
+  }
   .logos-index {
-    margin-top: 23%;
+    margin-top: 45%;
   }
   .logo {
     width: 70%;
   }
   .logos {
     margin-top: 3%;
+  }
+  .logos-index i {
+    font-size: 1.7rem;
   }
 
   .icon {
@@ -251,7 +277,8 @@ form a:hover {
 
   /************************ABOUT***********************************/
 
-  .about-text {
+  .about-text,
+  .stpn-text {
     font-size: 1rem;
     padding: 2% 11% 2% 3%;
     max-width: 100%;
@@ -271,7 +298,8 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .lottie {
-    margin-top: 3%;
+    margin-top: 15%;
+    z-index: -1;
   }
 
   .icon {
@@ -282,12 +310,27 @@ form a:hover {
   .logo {
     width: 60%;
   }
+  .logos {
+    margin-top: 2%;
+  }
+
+  .logos-index {
+    margin-top: 22%;
+  }
 
   /************************RELEASES***********************************/
 
   .rel-img {
     width: 200px;
     height: 200px;
+    display: block;
+    clear: both;
+    background: red;
+    border: 3px solid black;
+    outline: 15px solid white;
+    transition: 0.7s all ease-in;
+    height: 50px;
+    width: 50px;
   }
   .rel-item p {
     font-size: 1.2rem;
@@ -295,7 +338,8 @@ form a:hover {
   }
   /************************About-Page***********************************/
 
-  .about-text {
+  .about-text,
+  .stpn-text {
     padding: 2% 3%;
   }
 
@@ -310,7 +354,7 @@ form a:hover {
     width: 45%;
     margin: 0 4%;
   }
-  .about-text {
+  .stpn-text {
     order: 3;
   }
 }
@@ -338,7 +382,7 @@ form a:hover {
   }
 
   .logos-index {
-    margin-top: 7%;
+    margin-top: 8%;
   }
 
   /************************RELEASES***********************************/
@@ -352,16 +396,14 @@ form a:hover {
     height: 256px;
   }
 
-  .about-text {
+  .about-text,
+  .stpn-text {
     width: 40%;
-    /* overflow: scroll; */
-    /* height: 400px; */
     order: 0;
   }
 
-  .band-photo {
-    width: 30%;
-    margin: 0 1%;
+  .lottie {
+    margin-top: 8%;
   }
 
   /************************ABOUT***********************************/
@@ -370,7 +412,23 @@ form a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 3%;
+    margin: 0 2%;
+  }
+  .stpn-content {
+    align-items: center;
+  }
+  .stpn-text {
+    width: 30%;
+    order: 0;
+    margin-top: 2;
+    overflow: scroll;
+    height: 26em;
+    margin-top: 0;
+  }
+
+  .band-photo {
+    width: 33%;
+    margin: 0 2%;
   }
 }
 
@@ -382,14 +440,6 @@ form a:hover {
 
   .sidenav a {
     margin: 230% 0 0 30%;
-  }
-
-  .band-photo {
-    width: 30%;
-    margin: 1%;
-  }
-  .about-text {
-    order: 0;
   }
 
   /************************LOGOS***********************************/
@@ -405,13 +455,26 @@ form a:hover {
     margin-top: 2%;
   }
   .lottie {
-    width: 50%;
+    margin-top: 6%;
+    width: 65%;
   }
   .copyright {
-    font-size: 0.8rem;
+    margin-top: 1%;
+    font-size: 0.6rem;
+  }
+  .stpn-content {
+    align-items: center;
+  }
+
+  .band-photo {
+    width: 30%;
+    margin: 0 4%;
+  }
+  .stpn-text {
+    height: 40em;
   }
 }
-@media screen and (min-width: 2071px) {
+@media screen and (min-width: 1600px) {
   /************************SIDENAV***********************************/
   .sidenav {
     width: 4%;
@@ -426,9 +489,18 @@ form a:hover {
   .icon {
     width: 7%;
   }
-
+  .lottie {
+    margin-top: 0;
+  }
   .logo {
     margin: 3% AUTO;
     width: 35%;
+  }
+  .band-photo {
+    width: 25%;
+    margin: 0 5%;
+  }
+  .copyright {
+    font-size: 0.8rem;
   }
 }

@@ -20,7 +20,7 @@ function Steppenkind() {
             alt="band photo"
           />
 
-          <p className="about-text">
+          <p className="stpn-text">
             Steppenkind is building a bridge between nightclubbing and live
             concerts. <br /> The Berlin Trio is merging a variety of genres with
             synthesizers, electronic and acoustic drums, mesmerizing electric

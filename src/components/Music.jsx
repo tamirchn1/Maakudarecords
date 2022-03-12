@@ -18,8 +18,9 @@ function Music() {
               className="rel-img"
               alt="album cover of steppenkind first album"
             />
-            <p>
-              Steppenkind <br />
+            <p id="stpn-title">
+              <span className="artist-name">Steppenkind</span>
+              <br />
               undefined Lovers <br />
               2022
             </p>
@@ -37,8 +38,8 @@ function Music() {
               className="rel-img"
               alt="album cover of M love first album"
             />
-            <p>
-              Moosh Lahav <br />
+            <p id="moosh-title">
+              <span className="artist-name">Moosh Lahav</span> <br />
               Flute Ep <br />
               2022
             </p>

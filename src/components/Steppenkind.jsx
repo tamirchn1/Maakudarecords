@@ -14,12 +14,6 @@ function Steppenkind() {
       <main>
         <h1 className="about-head">STEPPENKIND</h1>
         <div className="stpn-content">
-          <img
-            className="band-photo"
-            src="images/steppenkind2.jpg"
-            alt="band photo"
-          />
-
           <p className="stpn-text">
             Steppenkind is building a bridge between nightclubbing and live
             concerts. <br /> The Berlin Trio is merging a variety of genres with
@@ -53,15 +47,22 @@ function Steppenkind() {
             It will finally showcase all the songs that have been making the
             live shows unforgettable.
           </p>
-          <Iframe
-            style="border: 0; width: 365px; height: 700px;"
-            src="https://bandcamp.com/EmbeddedPlayer/album=636602623/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
-            seamless
-          >
-            <a href="https://steppenkind.bandcamp.com/album/walk-along-your-river">
-              Walk Along Your River by Steppenkind
-            </a>
-          </Iframe>
+          <div className="stpn-media">
+            <img
+              className="band-photo"
+              src="images/steppenkind2.jpg"
+              alt="band photo"
+            />
+            <Iframe
+              style="border: 0; width: 100%; height: 42px;"
+              src="https://bandcamp.com/EmbeddedPlayer/album=636602623/size=small/bgcol=333333/linkcol=e99708/transparent=true/"
+              seamless
+            >
+              <a href="https://steppenkind.bandcamp.com/album/walk-along-your-river">
+                Walk Along Your River by Steppenkind
+              </a>
+            </Iframe>
+          </div>
         </div>
         <form>
           <div>

@@ -40,11 +40,10 @@ a {
 }
 
 Iframe {
+  width: 250px;
+  height: 30px;
+  border: 2px solid black;
   margin: 2% auto;
-  width: 265px;
-  height: 500px;
-}
-.media-content {
 }
 
 /*******************************Sidenav****************************/
@@ -57,7 +56,6 @@ Iframe {
   right: 0;
   background-color: #e6b31e;
   border-left: 12px rgb(255, 255, 255) solid;
-
   font-weight: 600;
 }
 .sidenav:after {
@@ -87,7 +85,8 @@ Iframe {
 .logos-index a :hover {
   color: rgb(150, 1, 1);
 }
-.fa-facebook-f:before {
+
+/* .fa-facebook-f:before {
   color: #3b5da1;
 }
 .fa-instagram:before {
@@ -104,7 +103,8 @@ Iframe {
 }
 .fa-record-vinyl:before {
   color: #333;
-}
+} */
+
 @keyframes slideInFromUp {
   0% {
     transform: translateY(-45%);
@@ -185,7 +185,7 @@ form a:hover {
   color: rgb(150, 1, 1);
 }
 
-/*******************************RELEASES****************************/
+/*******************************MUSIC****************************/
 
 .releases {
   display: flex;
@@ -201,6 +201,10 @@ form a:hover {
   font-size: 1.6rem;
   padding-left: 20%;
 }
+.artist-name {
+  font-size: 1.5em;
+}
+
 .rel-img {
   border: 5px rgb(0, 0, 0) double;
   animation: 0.3s ease-in opacity;
@@ -215,7 +219,8 @@ form a:hover {
 
 @media screen and (max-device-width: 550px) {
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    margin: 0;
   }
 
   .home-h1 {
@@ -224,7 +229,7 @@ form a:hover {
   }
   .copyright {
     font-size: 0.6rem;
-    padding-top: 6%;
+    padding-top: 1%;
   }
   /************************Sidenav***********************************/
 
@@ -260,8 +265,8 @@ form a:hover {
   }
 
   .icon {
-    width: 25%;
-    padding-left: 38%;
+    width: 27%;
+    margin: 0 auto;
   }
 
   /************************Releases***********************************/
@@ -270,6 +275,11 @@ form a:hover {
     display: block;
   }
 
+  .rel-img {
+    border: 12px solid white;
+    outline: 5px solid #e6b31e;
+    transition: 0.7s all ease-in;
+  }
   .rel-item p {
     font-size: 1rem;
     padding-right: 20%;
@@ -280,12 +290,16 @@ form a:hover {
   .about-text,
   .stpn-text {
     font-size: 1rem;
-    padding: 2% 11% 2% 3%;
+    padding: 2% 11% 2% 2%;
     max-width: 100%;
   }
+
   .band-photo {
     width: 90%;
-    margin: 2%;
+  }
+  .aboutimg {
+    width: 80%;
+    margin: 0 6% 2% 0;
   }
 }
 /************************TABLET***********************************/
@@ -303,59 +317,86 @@ form a:hover {
   }
 
   .icon {
-    width: 13%;
-    padding-top: 1%;
+    width: 15%;
+    padding-top: 3%;
   }
 
   .logo {
     width: 60%;
   }
   .logos {
-    margin-top: 2%;
+    margin-top: 1.3%;
   }
 
   .logos-index {
     margin-top: 22%;
   }
 
+  Iframe {
+    margin: 0 auto;
+  }
+
   /************************RELEASES***********************************/
 
+  .stpn-title {
+    padding-left: 0;
+  }
+
+  .rel-item p {
+    font-size: 1rem;
+    padding-right: 20%;
+    padding-left: 19%;
+    font-weight: 800;
+  }
+  .artist-name {
+    font-size: 1.6rem;
+  }
   .rel-img {
-    width: 200px;
-    height: 200px;
+    margin-top: 2%;
+    width: 160px;
+    height: 160px;
     display: block;
     clear: both;
-    background: red;
-    border: 3px solid black;
-    outline: 15px solid white;
+    border: 28px solid white;
+    outline: 5px solid #e6b31e;
     transition: 0.7s all ease-in;
-    height: 50px;
-    width: 50px;
-  }
-  .rel-item p {
-    font-size: 1.2rem;
-    padding-right: 20%;
   }
   /************************About-Page***********************************/
 
-  .about-text,
   .stpn-text {
-    padding: 2% 3%;
+    padding: 1% 3%;
+    font-size: 1rem;
+    margin-top: 0;
+    height: 25.5em;
+    overflow: scroll;
+  }
+
+  .about-text {
+    padding: 1% 3%;
+    font-size: 1rem;
+    margin-top: 0;
   }
 
   .stpn-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 2%;
-    align-items: center;
+    justify-content: space-between;
   }
+  .stpn-media {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .band-photo {
-    width: 45%;
+    border: 16px solid white;
+    outline: 2px solid #e6b31e;
+    width: 75%;
     margin: 0 4%;
   }
-  .stpn-text {
-    order: 3;
+  .aboutimg {
+    width: 40%;
+    margin-bottom: 2%;
   }
 }
 
@@ -374,7 +415,8 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .icon {
-    width: 13%;
+    padding-top: 1%;
+    width: 10%;
   }
 
   .logo {
@@ -396,14 +438,24 @@ form a:hover {
     height: 256px;
   }
 
-  .about-text,
   .stpn-text {
     width: 40%;
     order: 0;
   }
 
+  .about-text {
+    margin: 2%;
+    height: 29em;
+    overflow: scroll;
+  }
+
   .lottie {
     margin-top: 8%;
+  }
+
+  Iframe {
+    width: 330px;
+    margin-top: 2%;
   }
 
   /************************ABOUT***********************************/
@@ -415,24 +467,42 @@ form a:hover {
     margin: 0 2%;
   }
   .stpn-content {
-    align-items: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
   .stpn-text {
-    width: 30%;
+    width: 205%;
     order: 0;
     margin-top: 2;
     overflow: scroll;
     height: 26em;
     margin-top: 0;
   }
-
+  .stpn-media {
+    padding-left: 3%;
+  }
   .band-photo {
-    width: 33%;
-    margin: 0 2%;
+    width: 56%;
+  }
+
+  .form {
+    margin-top: 4%;
+  }
+  .logos {
+    margin-top: 3%;
+  }
+  .aboutimg {
+    width: 50%;
+    margin: 2%;
   }
 }
 
 @media screen and (min-width: 1127px) {
+  h1 {
+    margin: -2% auto 2%;
+    font-size: 2.1em;
+  }
   /************************SIDENAV***********************************/
   .sidenav {
     width: 5%;
@@ -444,7 +514,8 @@ form a:hover {
 
   /************************LOGOS***********************************/
   .icon {
-    width: 9%;
+    padding-top: 1%;
+    width: 10%;
   }
 
   .logo {
@@ -452,26 +523,38 @@ form a:hover {
     width: 35%;
   }
   .logos {
-    margin-top: 2%;
+    margin-top: 1%;
+  }
+  .logos {
+    font-size: 0.8rem;
   }
   .lottie {
     margin-top: 6%;
     width: 65%;
   }
   .copyright {
-    margin-top: 1%;
+    margin-top: 0;
     font-size: 0.6rem;
-  }
-  .stpn-content {
-    align-items: center;
   }
 
   .band-photo {
-    width: 30%;
-    margin: 0 4%;
+    width: 42%;
+    margin: 2% 10%;
   }
   .stpn-text {
-    height: 40em;
+    height: 26em;
+    overflow: scroll;
+  }
+
+  .about-text {
+    height: 21em;
+  }
+
+  .aboutimg {
+    width: 40%;
+  }
+  .form {
+    margin-top: 5%;
   }
 }
 @media screen and (min-width: 1600px) {

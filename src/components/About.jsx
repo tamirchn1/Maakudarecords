@@ -34,7 +34,7 @@ function About() {
             ears, which we want to share to the world, soft pointy kisses that
             writes the madness and contradiction.
           </p>
-          <img src="https://picsum.photos/400/300" />
+          <img className="aboutimg" src="../../images/aboutimg.jpg" />
         </div>
         <form>
           <div>

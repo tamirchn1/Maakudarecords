@@ -202,7 +202,7 @@ form a:hover {
   padding-left: 20%;
 }
 .artist-name {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .rel-img {
@@ -259,13 +259,14 @@ form a:hover {
   }
   .logos {
     margin-top: 3%;
+    font-size: 0.8rem;
   }
   .logos-index i {
     font-size: 1.7rem;
   }
 
   .icon {
-    width: 27%;
+    width: 33%;
     margin: 0 auto;
   }
 
@@ -416,7 +417,7 @@ form a:hover {
 
   .icon {
     padding-top: 1%;
-    width: 10%;
+    width: 14%;
   }
 
   .logo {

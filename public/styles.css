@@ -72,7 +72,7 @@ Iframe {
   writing-mode: vertical-rl;
   font-family: "maakudafont";
   font-size: 1.2rem;
-  margin: 350% 0 0 20%;
+  margin: 340% 0 0 20%;
 }
 .sidenav a:hover {
   color: #f1f1f1;
@@ -208,7 +208,7 @@ form a:hover {
 .rel-img {
   border: 5px rgb(0, 0, 0) double;
   animation: 0.3s ease-in opacity;
-  width: 40%;
+  width: 25%;
 }
 
 .rel-img:hover {
@@ -239,7 +239,7 @@ form a:hover {
   }
 
   .sidenav a {
-    margin: 350% 28% 0 22%;
+    margin: 283% 28% 0 22%;
     font-size: 1.3rem;
   }
 
@@ -435,8 +435,8 @@ form a:hover {
 
   .rel-img {
     margin-top: 3%;
-    width: 256px;
-    height: 256px;
+    width: 184px;
+    height: 184px;
   }
 
   .stpn-text {
@@ -491,7 +491,7 @@ form a:hover {
     margin-top: 4%;
   }
   .logos {
-    margin-top: 3%;
+    margin-top: 1%;
   }
   .aboutimg {
     width: 50%;
@@ -501,7 +501,7 @@ form a:hover {
 
 @media screen and (min-width: 1127px) {
   h1 {
-    margin: -2% auto 2%;
+    margin: -2% auto 0%;
     font-size: 2.1em;
   }
   /************************SIDENAV***********************************/
@@ -510,7 +510,7 @@ form a:hover {
   }
 
   .sidenav a {
-    margin: 230% 0 0 30%;
+    margin: 230% 0 0 26%;
   }
 
   /************************LOGOS***********************************/
@@ -571,7 +571,7 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .icon {
-    width: 7%;
+    width: 12%;
   }
   .lottie {
     margin-top: 0;

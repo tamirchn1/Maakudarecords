@@ -447,7 +447,7 @@ form a:hover {
   .about-text {
     margin: 2%;
     height: 29em;
-    overflow: scroll;
+    overflow: auto;
   }
 
   .lottie {
@@ -476,7 +476,7 @@ form a:hover {
     width: 205%;
     order: 0;
     margin-top: 2;
-    overflow: scroll;
+    overflow: auto;
     height: 26em;
     margin-top: 0;
   }
@@ -544,7 +544,7 @@ form a:hover {
   }
   .stpn-text {
     height: 26em;
-    overflow: scroll;
+    overflow: auto;
   }
 
   .about-text {

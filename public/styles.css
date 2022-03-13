@@ -605,4 +605,7 @@ form a:hover {
   .stpn-text {
     overflow: auto;
   }
+  .form {
+    width: 100%;
+  }
 }

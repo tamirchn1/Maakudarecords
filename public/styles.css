@@ -206,7 +206,12 @@ form a:hover {
 }
 
 .rel-img {
-  border: 5px rgb(0, 0, 0) double;
+  border: 12px solid white;
+  outline: 5px solid #e6b31e;
+  transition: 0.7s all ease-in;
+}
+
+.rel-img {
   animation: 0.3s ease-in opacity;
   width: 25%;
 }

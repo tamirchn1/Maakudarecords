@@ -10,7 +10,7 @@
 body {
   background-color: #cacaca;
   font-family: monospace;
-  margin: 0% 6% 0 0%;
+  /* margin: 0% 6% 0 0%; */
 }
 
 h1 {
@@ -36,6 +36,8 @@ a {
 }
 
 .icon {
+  width: 40%;
+  margin: 0 auto;
   padding: 1% 0 0 3%;
 }
 
@@ -132,9 +134,6 @@ Iframe {
   display: block;
   margin: 0 auto;
 }
-.rel-img {
-  max-width: 900px;
-}
 
 /*******************************ABOUT-PAGE****************************/
 .about-content {
@@ -174,17 +173,17 @@ form a:hover {
 
 .releases {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
 .rel-item {
-  margin: 3% 4%;
+  margin: 1% 4%;
 }
 
 .rel-item p {
   font-size: 1.6rem;
-  padding-left: 20%;
 }
 .artist-name {
   font-size: 1.3em;
@@ -193,6 +192,9 @@ form a:hover {
 .rel-img {
   animation: 0.3s ease-in opacity;
   width: 25%;
+  border: 12px solid white;
+  outline: 5px solid #e6b31e;
+  transition: 0.7s all ease-in;
 }
 
 .rel-img:hover {
@@ -202,6 +204,7 @@ form a:hover {
 .band-photo {
   max-width: 100%;
 }
+
 /************************IPHONE***********************************/
 
 @media screen and (max-device-width: 550px) {
@@ -246,7 +249,6 @@ form a:hover {
     width: 70%;
   }
   .logos {
-    margin-top: 3%;
     font-size: 0.8rem;
   }
   .logos-index i {
@@ -260,18 +262,8 @@ form a:hover {
 
   /************************Releases***********************************/
 
-  .releases {
-    display: flex;
-    flex-direction: column;
-  }
-  .rel-img {
-    border: 12px solid white;
-    outline: 5px solid #e6b31e;
-    transition: 0.7s all ease-in;
-  }
   .rel-item p {
     font-size: 1rem;
-    padding-right: 20%;
   }
 
   /************************ABOUT***********************************/
@@ -301,20 +293,19 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .lottie {
-    margin-top: 1%;
+    margin-top: 0;
+    width: 89%;
     z-index: -1;
   }
 
   .icon {
+    margin: unset;
     width: 15%;
     padding-top: 3%;
   }
 
   .logo {
     width: 60%;
-  }
-  .logos {
-    margin-top: 4%;
   }
 
   .logos-index {
@@ -340,14 +331,15 @@ form a:hover {
   .artist-name {
     font-size: 1.6rem;
   }
+  .releases {
+    flex-direction: row;
+  }
   .rel-img {
     margin-top: 2%;
     width: 160px;
     height: 160px;
     display: block;
     clear: both;
-    border: 28px solid white;
-    outline: 5px solid #e6b31e;
     transition: 0.7s all ease-in;
   }
   /************************About-Page***********************************/
@@ -397,8 +389,8 @@ form a:hover {
   }
 
   .sidenav a {
-    font-size: 1.5rem;
-    margin: 240% 0 0 22%;
+    font-size: 1.4rem;
+    margin: 220% 0 0 26%;
   }
 
   /************************LOGOS***********************************/
@@ -422,7 +414,6 @@ form a:hover {
   }
 
   .rel-img {
-    margin-top: 3%;
     width: 200px;
     height: 200px;
   }
@@ -439,7 +430,8 @@ form a:hover {
   }
 
   .lottie {
-    margin-top: 8%;
+    margin-top: 0%;
+    width: 76%;
   }
 
   Iframe {
@@ -478,9 +470,7 @@ form a:hover {
   .form {
     margin-top: 4%;
   }
-  .logos {
-    margin-top: 1%;
-  }
+
   .aboutimg {
     width: 50%;
     margin: 2%;
@@ -495,6 +485,7 @@ form a:hover {
   /************************SIDENAV***********************************/
   .sidenav {
     width: 5%;
+    border-left: 16px white solid;
   }
 
   .sidenav a {
@@ -512,6 +503,7 @@ form a:hover {
     width: 35%;
   }
   .logos {
+    margin-top: 3%;
     font-size: 0.8rem;
   }
 
@@ -564,7 +556,6 @@ form a:hover {
   /************************Music***********************************/
 
   .rel-img {
-    margin-top: 3%;
     width: 250px;
     height: 250px;
   }

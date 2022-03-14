@@ -206,12 +206,6 @@ form a:hover {
 }
 
 .rel-img {
-  border: 12px solid white;
-  outline: 5px solid #e6b31e;
-  transition: 0.7s all ease-in;
-}
-
-.rel-img {
   animation: 0.3s ease-in opacity;
   width: 25%;
 }
@@ -565,6 +559,7 @@ form a:hover {
 }
 @media screen and (min-width: 1600px) {
   h1 {
+    font-size: 3rem;
     margin-bottom: 1%;
   }
 
@@ -574,10 +569,20 @@ form a:hover {
     width: 4%;
   }
 
+  .sidenav a {
+    font-size: 2.2rem;
+  }
+
   .rel-img {
     margin-top: 3%;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+  }
+  .artist-name {
+    font-size: 2.2rem;
+  }
+  .rel-item p {
+    font-size: 2rem;
   }
   .sidenav a {
     margin: 290% 0 0 28%;
@@ -586,7 +591,7 @@ form a:hover {
   /************************LOGOS***********************************/
 
   .icon {
-    width: 12%;
+    width: 10%;
   }
   .lottie {
     margin-top: 0;
@@ -600,17 +605,33 @@ form a:hover {
   }
 
   .band-photo {
-    width: 50%;
+    width: 76%;
     margin: 0 5%;
   }
   .copyright {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
-  .stpn-text {
-    overflow: auto;
+  .label-name {
+    font-size: 1.7rem;
   }
+  .about-text,
+  .stpn-text {
+    font-size: 1.5rem;
+  }
+  .stpn-text {
+    height: 43rem;
+  }
+
+  Iframe {
+    width: 350px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 2% auto;
+  }
+
   .form {
+    font-size: 1.8rem;
     width: 100%;
   }
 }

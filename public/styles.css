@@ -86,25 +86,6 @@ Iframe {
   color: rgb(150, 1, 1);
 }
 
-/* .fa-facebook-f:before {
-  color: #3b5da1;
-}
-.fa-instagram:before {
-  color: #bc2a8d;
-}
-.fa-bandcamp:before {
-  color: #629aa9;
-}
-.fa-soundcloud:before {
-  color: #f70;
-}
-.fa-youtube:before {
-  color: #ff0000;
-}
-.fa-record-vinyl:before {
-  color: #333;
-} */
-
 @keyframes slideInFromUp {
   0% {
     transform: translateY(-45%);
@@ -151,6 +132,9 @@ Iframe {
   display: block;
   margin: 0 auto;
 }
+.rel-img {
+  max-width: 900px;
+}
 
 /*******************************ABOUT-PAGE****************************/
 .about-content {
@@ -167,6 +151,7 @@ Iframe {
   border-bottom: 0.2em rgb(255, 255, 255) solid;
   box-sizing: border-box;
   text-align: justify;
+  padding: 0 5% 0 2%;
 }
 
 .form {
@@ -213,7 +198,10 @@ form a:hover {
 .rel-img:hover {
   opacity: 0.6;
 }
-
+.aboutimg,
+.band-photo {
+  max-width: 100%;
+}
 /************************IPHONE***********************************/
 
 @media screen and (max-device-width: 550px) {
@@ -226,14 +214,15 @@ form a:hover {
     font-size: 1.1rem;
     margin-top: 12%;
   }
+
   .copyright {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     padding-top: 1%;
   }
   /************************Sidenav***********************************/
 
   .sidenav {
-    width: 13%;
+    width: 12%;
     border-left: 8px rgb(255, 255, 255) solid;
   }
 
@@ -272,9 +261,9 @@ form a:hover {
   /************************Releases***********************************/
 
   .releases {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
-
   .rel-img {
     border: 12px solid white;
     outline: 5px solid #e6b31e;
@@ -523,11 +512,10 @@ form a:hover {
     width: 35%;
   }
   .logos {
+    font-size: 0.8rem;
     margin-top: 1%;
   }
-  .logos {
-    font-size: 0.8rem;
-  }
+
   .lottie {
     margin-top: 0;
     width: 65%;
@@ -537,13 +525,13 @@ form a:hover {
     font-size: 0.6rem;
   }
 
-  .band-photo {
-    width: 42%;
-    margin: 2% 10%;
-  }
   .stpn-text {
+    font-size: 1.4rem;
+    width: 250%;
     height: 26em;
-    overflow: auto;
+  }
+  .band-photo {
+    width: 90%;
   }
 
   .about-text {
@@ -554,15 +542,16 @@ form a:hover {
     width: 40%;
   }
   .form {
-    margin-top: 4%;
+    margin-top: 1%;
   }
 }
 @media screen and (min-width: 1600px) {
   h1 {
-    font-size: 3rem;
-    margin-bottom: 1%;
+    font-size: 2rem;
   }
-
+  .lottie {
+    margin-top: 0;
+  }
   /************************SIDENAV***********************************/
 
   .sidenav {
@@ -570,57 +559,28 @@ form a:hover {
   }
 
   .sidenav a {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
+    margin: 290% 0 0 28%;
   }
+  /************************Music***********************************/
 
   .rel-img {
     margin-top: 3%;
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
   }
   .artist-name {
-    font-size: 2.2rem;
-  }
-  .rel-item p {
     font-size: 2rem;
   }
-  .sidenav a {
-    margin: 290% 0 0 28%;
+  .rel-item p {
+    font-size: 1.6rem;
   }
-
-  /************************LOGOS***********************************/
-
-  .icon {
-    width: 10%;
-  }
-  .lottie {
-    margin-top: 0;
-  }
-  .logo {
-    margin: 3% AUTO;
-    width: 35%;
-  }
-  .logos {
-    font-size: 1rem;
-  }
-
   .band-photo {
-    width: 76%;
+    width: 63%;
     margin: 0 5%;
   }
-  .copyright {
-    font-size: 1.2rem;
-  }
-
-  .label-name {
-    font-size: 1.7rem;
-  }
-  .about-text,
   .stpn-text {
-    font-size: 1.5rem;
-  }
-  .stpn-text {
-    height: 43rem;
+    height: 33rem;
   }
 
   Iframe {
@@ -629,9 +589,40 @@ form a:hover {
     border: 2px solid black;
     margin: 2% auto;
   }
+  /************************LOGOS***********************************/
+
+  .icon {
+    width: 9%;
+  }
+
+  .logo {
+    margin: 3% AUTO;
+    width: 35%;
+  }
+  .logos {
+    margin-top: 4%;
+    font-size: 1rem;
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+
+  .label-name {
+    font-size: 1rem;
+  }
+
+  .about-text,
+  .stpn-text {
+    font-size: 1.2rem;
+  }
+
+  .aboutimg {
+    width: 40%;
+  }
 
   .form {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     width: 100%;
   }
 }

@@ -490,7 +490,7 @@ form a:hover {
 @media screen and (min-width: 1127px) {
   h1 {
     margin: -2% auto 0%;
-    font-size: 2.1em;
+    font-size: 2em;
   }
   /************************SIDENAV***********************************/
   .sidenav {
@@ -503,7 +503,7 @@ form a:hover {
 
   /************************LOGOS***********************************/
   .icon {
-    padding-top: 1%;
+    padding-top: 0.5%;
     width: 10%;
   }
 
@@ -513,7 +513,6 @@ form a:hover {
   }
   .logos {
     font-size: 0.8rem;
-    margin-top: 1%;
   }
 
   .lottie {
@@ -526,12 +525,12 @@ form a:hover {
   }
 
   .stpn-text {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     width: 250%;
     height: 26em;
   }
   .band-photo {
-    width: 90%;
+    width: 64%;
   }
 
   .about-text {
@@ -576,7 +575,7 @@ form a:hover {
     font-size: 1.6rem;
   }
   .band-photo {
-    width: 63%;
+    width: 60%;
     margin: 0 5%;
   }
   .stpn-text {
@@ -600,7 +599,7 @@ form a:hover {
     width: 35%;
   }
   .logos {
-    margin-top: 4%;
+    margin-top: 1%;
     font-size: 1rem;
   }
 

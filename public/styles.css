@@ -190,11 +190,9 @@ form a:hover {
 }
 
 .rel-img {
-  animation: 0.3s ease-in opacity;
   width: 25%;
   border: 12px solid white;
   outline: 5px solid #e6b31e;
-  transition: 0.7s all ease-in;
 }
 
 .rel-img:hover {
@@ -271,7 +269,7 @@ form a:hover {
   .about-text,
   .stpn-text {
     font-size: 1rem;
-    padding: 2% 11% 2% 2%;
+    padding: 2% 14% 2% 2%;
     max-width: 100%;
   }
 
@@ -405,7 +403,7 @@ form a:hover {
   }
 
   .logos-index {
-    margin-top: 7%;
+    margin-top: 5%;
   }
 
   /************************RELEASES***********************************/
@@ -461,7 +459,7 @@ form a:hover {
     margin-top: 0;
   }
   .stpn-media {
-    padding-left: 3%;
+    padding-right: 4%;
   }
   .band-photo {
     width: 56%;
@@ -503,7 +501,7 @@ form a:hover {
     width: 35%;
   }
   .logos {
-    margin-top: 3%;
+    margin-top: 1.4%;
     font-size: 0.8rem;
   }
 
@@ -605,6 +603,7 @@ form a:hover {
   .about-text,
   .stpn-text {
     font-size: 1.2rem;
+    overflow: auto;
   }
 
   .aboutimg {

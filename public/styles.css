@@ -278,7 +278,7 @@ form a:hover {
   }
   .aboutimg {
     width: 80%;
-    margin: 0 6% 2% 0;
+    margin: 0 6% 2% 0;t
   }
 }
 /************************TABLET***********************************/
@@ -525,6 +525,7 @@ form a:hover {
 
   .about-text {
     height: 21em;
+    overflow: auto;
   }
 
   .aboutimg {
@@ -603,7 +604,7 @@ form a:hover {
   .about-text,
   .stpn-text {
     font-size: 1.2rem;
-    overflow: auto;
+    overflow: hidden;
   }
 
   .aboutimg {

@@ -23,15 +23,6 @@ function FooterIndex() {
         <a href="" target="_blank" rel="noreferrer">
           <i className="fa fa-bandcamp fa-2x" aria-hidden="true"></i>
         </a>
-        <a href="">
-          <i className="fab fa-soundcloud fa-2x" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i className="fab fa-youtube fa-2x" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i className="fas fa-record-vinyl fa-2x" aria-hidden="true"></i>
-        </a>
       </div>
       <footer className="copyright">
         This website was built by -{" "}

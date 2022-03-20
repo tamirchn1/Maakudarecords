@@ -149,7 +149,6 @@ Iframe {
   border-top: 0.6em white solid;
   border-bottom: 0.2em rgb(255, 255, 255) solid;
   box-sizing: border-box;
-  text-align: justify;
   padding: 0 5% 0 2%;
 }
 

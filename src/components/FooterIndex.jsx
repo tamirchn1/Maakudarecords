@@ -20,7 +20,11 @@ function FooterIndex() {
         >
           <i className="fab fa-2x fa-facebook-f" aria-hidden="true"></i>
         </a>
-        <a href="" target="_blank" rel="noreferrer">
+        <a
+          href="https://maakudarecords.bandcamp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa fa-bandcamp fa-2x" aria-hidden="true"></i>
         </a>
       </div>

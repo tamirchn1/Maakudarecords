@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "maakuda-web-react",
   "icons":{
     "src": "favicon.ico",

@@ -54,12 +54,12 @@ function Steppenkind() {
               alt="band photo"
             />
             <Iframe
-              style="border: 0; width: 100%; height: 42px;"
-              src="https://bandcamp.com/EmbeddedPlayer/album=636602623/size=small/bgcol=333333/linkcol=e99708/transparent=true/"
+              style="border: 0; width: 100%; height: 100%;"
+              src="https://bandcamp.com/EmbeddedPlayer/album=301964245/size=small/bgcol=333333/linkcol=e99708/transparent=true/"
               seamless
             >
-              <a href="https://steppenkind.bandcamp.com/album/walk-along-your-river">
-                Walk Along Your River by Steppenkind
+              <a href="https://steppenkind.bandcamp.com/album/undefined-lovers">
+                Undefined Lovers by Steppenkind
               </a>
             </Iframe>
           </div>

@@ -28,11 +28,7 @@ function Music() {
         </div>
 
         <div className="rel-item">
-          <a
-            href="https://www.facebook.com/1MLOVE1"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/moosh" target="_blank" rel="noreferrer">
             <img
               src="images/moosh1.jpg"
               className="rel-img"

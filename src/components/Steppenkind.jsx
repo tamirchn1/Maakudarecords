@@ -13,8 +13,8 @@ function Steppenkind() {
       </div>
       <main>
         <h1 className="about-head">STEPPENKIND</h1>
-        <div className="stpn-content">
-          <p className="stpn-text">
+        <div className="artist-content">
+          <p className="artist-text">
             Steppenkind is building a bridge between nightclubbing and live
             concerts. <br /> The Berlin Trio is merging a variety of genres with
             synthesizers, electronic and acoustic drums, mesmerizing electric
@@ -47,7 +47,7 @@ function Steppenkind() {
             It will finally showcase all the songs that have been making the
             live shows unforgettable.
           </p>
-          <div className="stpn-media">
+          <div className="artist-media">
             <img
               className="band-photo"
               src="images/steppenkind2.jpg"

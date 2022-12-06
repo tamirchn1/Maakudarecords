@@ -36,8 +36,8 @@ function Music() {
             />
             <p id="moosh-title">
               <span className="artist-name">Moosh Lahav</span> <br />
-              Flute Ep <br />
-              2022
+              Lipari <br />
+              2023
             </p>
           </a>
         </div>

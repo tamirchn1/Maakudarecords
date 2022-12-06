@@ -13,9 +13,9 @@ function Moosh() {
       </div>
       <main>
         <h1 className="about-head">Moosh</h1>
-        <div className="stpn-content">
-          <p className="stpn-text">Moosh Lahav is...</p>
-          <div className="stpn-media">
+        <div className="artist-content">
+          <p className="artist-text">Moosh Lahav is...</p>
+          <div className="artist-media">
             <img
               src="images/moosh1.jpg"
               className="rel-img"
